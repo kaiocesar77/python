@@ -1,20 +1,20 @@
-a = int(input("Digite o primeiro número: "))
-b = int(input("Digite o segundo número: "))
-c = int(input("Digite o terceiro número: "))
+n1 = int(input("Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+n3 = int(input("Digite o terceiro número: "))
 
-if a > b and a > c:
-    if b > c:
-        print(a , b , c)
+if n1 > n2 and n1 > n3:
+    if n2 > n3:
+        print(n1 , n2 , n3)
     else:
-        print(a , c , b)
-elif b > a and b > c:
-    if a > c:
-        print(b , a , c)
+        print(n1 , n3 , n2)
+elif n2 > n1 and n2 > n3:
+    if n1 > n3:
+        print(n2 , n1 , n3)
     else:
-        print(b , c , a)    
-elif c > a and c > b:
-    if a > b:
-        print(c , a , b)
+        print(n2 , n3 , n1)    
+elif n3 > n1 and n3 > n2:
+    if n1 > n2:
+        print(n3 , n1 , n2)
     else:
-        print(c , b , a)    
+        print(n3 , n2 , n1)    
         
